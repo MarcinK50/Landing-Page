@@ -20,6 +20,11 @@ function showTime() {
     if(min < 10) {
         min = '0' + min;
     }
+
+    // Add Zeros to Houres
+    if(hour < 10) {
+        hour = '0' + hour;
+    }
     
     // Output
     time.innerHTML = `${hour}<span>:</span>${min}<span>:</span>${sec}`;
