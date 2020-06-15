@@ -34,15 +34,15 @@ function setBgGreet() {
 
     if(hour < 12) {
         // Morning
-        document.body.style.backgroundImage = "url(../img/morning.jpg)";
+        document.body.style.backgroundImage = "url(https://marcink50.github.io/Landing-Page/img/morning.jpg)";
         greeting.textContent = 'Dzień dobry';
     } else if(hour < 18) {
         // Afternoon
-        document.body.style.backgroundImage = "url(../img/afternoon.jpg)";
+        document.body.style.backgroundImage = "url(https://marcink50.github.io/Landing-Page/img/afternoon.jpg)";
         greeting.textContent = 'Dzień dobry';
     } else {
         // Evenight
-        document.body.style.backgroundImage = "url(../img/night.jpg)";
+        document.body.style.backgroundImage = "url(https://marcink50.github.io/Landing-Page/img/night.jpg)";
         greeting.textContent = 'Dobry wieczór';
         document.body.style.color = "white";
     }
