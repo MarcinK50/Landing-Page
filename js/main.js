@@ -43,7 +43,7 @@ function setBgGreet() {
         greeting.textContent = 'Dzień dobry';
     } else if(hour < 18) {
         // Afternoon
-        document.body.style.backgroundImage = "url(https://marcink50.github.io/Landing-Page/img/afternoon1.jpg)";
+        document.body.style.backgroundImage = "url(https://marcink50.github.io/Landing-Page/img/afternoon.jpg)";
         greeting.textContent = 'Dzień dobry';
     } else {
         // Evenight
