@@ -51,6 +51,8 @@ function setBgGreet() {
         greeting.textContent = 'Dobry wieczór';
         document.body.style.color = "white";
     }
+	
+	setInterval(setBgGreet, 3600000);
 }
 
 // Get Name
