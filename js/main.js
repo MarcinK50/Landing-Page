@@ -37,17 +37,16 @@ function setBgGreet() {
     let today = new Date(),
         hour = today.getHours();
 
-    if(hour < 12) {
-        // Morning
+    if(hour >= 6 && hour < 12) {
+		// Morning
         document.body.style.backgroundImage = "url(https://marcink50.github.io/Landing-Page/img/morning.jpg)";
         greeting.textContent = 'Dzień dobry';
-    } else if(hour < 18) {
+    } else if(hour >= 12 && hour <= 18) {
         // Afternoon
         document.body.style.backgroundImage = "url(https://marcink50.github.io/Landing-Page/img/afternoon.jpg)";
         greeting.textContent = 'Dzień dobry';
     } else {
-        // Evenight
-        document.body.style.backgroundImage = "url(https://marcink50.github.io/Landing-Page/img/night.jpg)";
+		document.body.style.backgroundImage = "url(https://marcink50.github.io/Landing-Page/img/night.jpg)";
         greeting.textContent = 'Dobry wieczór';
         document.body.style.color = "white";
     }
