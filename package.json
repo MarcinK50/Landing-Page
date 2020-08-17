@@ -1,0 +1,22 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Landing-Page by MarcinK50",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcinK50/Landing-Page.git"
+  },
+  "author": "Marcin \"MarcinK50\" Kowalicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcinK50/Landing-Page/issues"
+  },
+  "homepage": "https://github.com/MarcinK50/Landing-Page#readme",
+  "dependencies": {
+    "rome": "^10.0.4-beta"
+  }
+}
